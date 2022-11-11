@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Digevo Evolution</title>
+    <meta charset="UTF-8">
+    <link href="img/favicon.png" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/main.css?v=21884" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=21884" type="text/javascript"></script>
+    <!-- Meta tags facebook-->
+    <meta property="og:title" content="#">
+    <meta property="og:description" content="#">
+    <meta property="og:image" content="#">
+    <!-- Meta tags twitter cards-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="#">
+    <meta name="twitter:description" content="#">
+    <meta name="twitter:image" content="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+  </head>
+  <body>
+    <div id="sections">
+      <div class="dashboard dashboard--scroll">
+        <div class="dashboard__nav">
+          <div class="dashboard__nav__nav"> 
+            <nav> 
+              <ul> 
+                <div class="dashboard__nav__title">Menú Principal</div>
+                <li class="current"><span class="material-symbols-rounded">home</span><a href="dashboard.html">Inicio</a></li>
+                <li><span class="material-symbols-rounded">mark_email_unread</span><a href="gestion-notifications.html">Gestor de Notificaciones</a></li>
+                <li> <span class="material-symbols-rounded">history_edu</span><a href="gestion-contratos.html">Gestor de Contratos</a></li>
+                <li> <span class="material-symbols-rounded">storefront</span><a href="#">Gestor de Marketplace</a></li>
+                <li> <span class="material-symbols-rounded">rocket</span><a href="startups.html">Startups</a></li>
+                <li> <span class="material-symbols-rounded">group</span><a href="#">Gestor de Asesores</a></li>
+                <li> <span class="material-symbols-rounded">assignment</span><a href="#">Gestor de Encuestas</a></li>
+                <li> <span class="material-symbols-rounded">grid_view</span><a href="#">Gestor de Programas</a></li>
+                <li> <span class="material-symbols-rounded">add_box</span><a href="#">Gestor de Recursos</a></li>
+                <li> <span class="material-symbols-rounded">hub</span><a href="#">Gestor de Elementos</a></li>
+                <li> <span class="material-symbols-rounded">chat</span><a href="chats.html">Chat</a></li>
+                <li> <span class="material-symbols-rounded">help</span><a href="help.html">Ayuda</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="dashboard__footer">
+            <div class="dashboard__button__desktop"><a href="#" class="btn btn--light">Cerrar Sesión<span class="material-symbols-rounded">logout</span></a></div>
+            <div class="dashboard__button__mobile"><a href="#" class="btn btn--light"><span class="material-symbols-rounded">logout</span></a></div>
+          </div>
+        </div>
+        <div class="dashboard__header"> 
+          <div class="dashboard__wrap">
+            <div class="dashboard__searchinput">
+              <form action="search.html" method="get"><span class="fa fa-search"></span>
+                <input type="text" name="s" placeholder="Escribe tu búsqueda">
+              </form>
+            </div>
+            <div class="dashboard__flex">
+              <div class="dashboard__logo"><img src="img/icons/logo-evolution-dark.png"></div>
+              <div class="dashboard__search">
+                <form action="">
+                  <input type="text" name="#" placeholder="Escribe tu búsqueda ...">
+                  <button><span class="material-symbols-rounded">search</span></button>
+                </form>
+              </div>
+              <div class="dashboard__right">
+                <div data-open-search class="dashboard__actionsearch"><span class="material-symbols-rounded">search</span></div>
+                <div class="dashboard__button"> <a href="#" class="btn">Darwin</a></div>
+                <div class="dashboard__items">
+                  <div class="dashboard__item dashboard__item--darwin"><a href="#"><img src="img/icons/icon-darwin.png"></a></div>
+                  <div class="dashboard__item dashboard__item--notifications"><a href="#"><span class="material-symbols-rounded">notifications</span>
+                      <div class="alert-number">3</div></a>
+                    <div class="dashboard__notifications"> 
+                      <div class="dashboard__notifications__body">
+                        <!--.dashboard__clear span No hay notificaciones disponibles
+                        -->
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/1.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Tempor massa ad viverra</a>
+                            <p>Massa sed aptent nec porttitor urna id arcu aliquam aenean nibh curabitur.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/2.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Etiam aenean laoreet quisque</a>
+                            <p>Etiam etiam velit pellentesque dui potenti mi ut consectetur sem proin turpis.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/3.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Sodales etiam eu sagittis</a>
+                            <p>Proin luctus maecenas orci sollicitudin etiam sapien egestas rhoncus quis sodales donec.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/1.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Diam duis venenatis commodo</a>
+                            <p>Cras etiam vulputate nam bibendum purus nisi tincidunt consectetur aliquam condimentum aliquam.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/2.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Porta vivamus sollicitudin primis</a>
+                            <p>Non vivamus ultrices posuere mi commodo platea proin tellus bibendum fringilla orci.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/3.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Torquent molestie vitae ornare</a>
+                            <p>Ullamcorper tempor est fermentum erat litora odio leo urna auctor adipiscing nulla.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/1.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Euismod urna libero gravida</a>
+                            <p>Gravida dictum felis scelerisque id elementum varius et dapibus porta duis per.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/2.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Pulvinar suscipit conubia nam</a>
+                            <p>Viverra integer aptent sagittis blandit pharetra euismod suscipit egestas conubia non erat.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/3.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Sodales vestibulum eleifend volutpat</a>
+                            <p>Molestie imperdiet lacus pellentesque curabitur auctor pellentesque vulputate praesent lectus etiam dui.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="dashboard__notifications__footer"><a href="notifications.html" class="btn btn--light">Ver todas las notificaciones<span class="material-symbols-rounded">notifications</span></a></div>
+                    </div>
+                  </div>
+                  <div class="dashboard__item dashboard__item--profile"><a><span class="material-symbols-rounded">person</span></a>
+                    <div class="dashboard__profile"> 
+                      <div class="dashboard__profile__body">
+                        <ul> 
+                          <li><a href="#">Emprendimiento 1</a>
+                            <ul> 
+                              <li><a href="#">Emprendimiento 2</a></li>
+                              <li><a href="#">Emprendimiento 3</a></li>
+                              <li><a href="#">Emprendimiento 4</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="profile.html">Mi perfil</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__body">
+          <div class="dashboard__body__header"> 
+            <div class="dashboard__prev"><a href="programs-modules.html">Volver a Módulos<span class="material-symbols-rounded">keyboard_backspace</span></a></div>
+            <h3 class="dashboard__title">Estrategia y Desarrollo</h3>
+          </div>
+          <div class="dasboard__body__body">
+            <div class="cols"> 
+              <div class="col-xs-12 col-md-4">
+                <div class="dashboard__units">
+                  <h4>Unidades</h4>
+                  <div class="faq">
+                    <div class="faq__item faq__open">
+                      <h3 class="faq__question"><span class="faq__circle">1</span><span class="fa fa-angle-down"></span>Estrategia</h3>
+                      <div class="faq__answer">
+                        <ul>
+                          <li class="complete"><a href="#">Ornare egestas</a></li>
+                          <li class="complete"><a href="#">Risus vitae</a></li>
+                          <li class="current"><a href="#">Varius curae lacus</a></li>
+                          <li><a href="#">Arcu condimentum ultricies himenaeos eu</a></li>
+                          <li><a href="#">Etiam ultrices etiam</a></li>
+                          <li><a href="#">Integer fusce curae sollicitudin molestie suscipit quisque lobortis</a></li>
+                          <li><a href="#">Vitae curae</a></li>
+                        </ul><a href="#" class="btn btn--sm">Finalizar Unidad</a>
+                      </div>
+                    </div>
+                    <div class="faq__item">
+                      <h3 class="faq__question"><span class="faq__circle">2</span><span class="fa fa-angle-down"></span>Producto</h3>
+                      <div class="faq__answer">
+                        <ul>
+                          <li><a href="#">Arcu netus</a></li>
+                          <li><a href="#">Fringilla bibendum</a></li>
+                          <li><a href="#">Etiam suscipit erat</a></li>
+                          <li><a href="#">Laoreet eros vulputate nullam curabitur</a></li>
+                          <li><a href="#">Sed luctus morbi</a></li>
+                          <li><a href="#">Luctus molestie adipiscing pulvinar urna tristique ut quis</a></li>
+                          <li><a href="#">Nisl nec</a></li>
+                        </ul><a href="#" class="btn btn--sm">Finalizar Unidad</a>
+                      </div>
+                    </div>
+                    <div class="faq__item">
+                      <h3 class="faq__question"><span class="faq__circle">3</span><span class="fa fa-angle-down"></span>Go To Market</h3>
+                      <div class="faq__answer">
+                        <ul>
+                          <li><a href="#">Urna donec</a></li>
+                          <li><a href="#">Sem rhoncus</a></li>
+                          <li><a href="#">Adipiscing suscipit curae</a></li>
+                          <li><a href="#">Pulvinar a nulla consequat metus</a></li>
+                          <li><a href="#">Conubia nec bibendum</a></li>
+                          <li><a href="#">Sapien neque faucibus potenti faucibus sapien ultricies non</a></li>
+                          <li><a href="#">Sagittis aliquet</a></li>
+                        </ul><a href="#" class="btn btn--sm">Finalizar Unidad</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dashboard__more"> <span class="material-symbols-rounded">expand_more</span></div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-8">
+                <div class="dashboard__module">
+                  <div class="dashboard__module__nav">
+                    <div class="dashboard__module__nav__sticky">
+                      <ul>
+                        <li><a href="#">Curso</a></li>
+                        <li><a href="#">Recursos</a></li>
+                        <li><a href="#">Herramientas</a></li>
+                        <li><a href="#">Adjuntar Herramientas</a></li>
+                        <li><a href="#">Solicitar Feedback</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="dashboard__module__body content">
+                    <div class="dashboard__module__item">
+                      <h3>Curso</h3>
+                      <p>Cras turpis sed placerat curabitur at etiam ligula fermentum ut. Himenaeos class per eget tellus tristique ullamcorper massa accumsan pellentesque. Sapien at curae nisl viverra ad dui auctor ligula litora. Cubilia cras malesuada dui at dapibus ad sem dui augue. Curabitur aliquam id neque tincidunt ornare molestie augue consequat senectus habitant mauris habitasse duis venenatis.
+                      </p>
+                      <p>Quam conubia luctus aliquet accumsan interdum molestie dictum imperdiet nisi. Consectetur laoreet lacinia aliquam scelerisque consequat sapien cubilia a risus. Mauris velit luctus enim felis non hac pretium vel erat. Etiam posuere augue class dui sodales habitant auctor ligula commodo. Potenti quisque augue mattis tortor a phasellus posuere vel pulvinar. Purus condimentum litora rutrum rhoncus scelerisque orci est donec aliquet. Maecenas curabitur est cras rhoncus lectus praesent feugiat aptent id. Cursus vestibulum arcu dictumst ligula metus proin tempor conubia sociosqu. Rhoncus cursus justo fames auctor felis sagittis sollicitudin felis justo aenean faucibus cursus blandit faucibus.
+                      </p>
+                      <p>Adipiscing curabitur iaculis elementum morbi velit consectetur per elementum facilisis. Primis praesent ad aliquam congue lacinia porttitor aptent inceptos curae. Aliquam cras varius urna et pellentesque leo fames auctor mauris. Porta eleifend diam accumsan ultrices nisl faucibus quis lobortis nulla in mi primis nunc dictumst.
+                      </p>
+                      <ul> 
+                        <li>Tellus netus gravida per turpis sollicitudin at dapibus tristique blandit rutrum litora.
+                        </li>
+                        <li>Elementum lectus dictumst platea maecenas aptent integer
+                        </li>
+                        <li>Platea diam lacinia commodo posuere augue
+                        </li>
+                        <li>Varius bibendum suspendisse
+                        </li>
+                        <li>Aliquam platea viverra pretium elementum sem potenti etiam
+                        </li>
+                        <li>Purus libero sem aenean habitant nullam integer imperdiet senectus cursus platea mollis sollicitudin orci fames.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="dashboard__module__item">
+                      <h3>Recursos</h3>
+                      <div class="tabs"> 
+                        <div class="tabs__header"> 
+                          <div class="tab tab--current">Esencial saber</div>
+                          <div class="tab">Para profundizar </div>
+                          <div class="tab">Para profundizar </div>
+                        </div>
+                        <div class="tabs__body"> 
+                          <div class="tab tab--current">
+                            <h2>Risus elementum nisl ut euismod felis
+                            </h2><iframe width="560" height="315" src="https://www.youtube.com/embed/UwsrzCVZAb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>Nulla sagittis vitae lacinia netus senectus pellentesque senectus facilisis in. Iaculis habitasse habitant fames enim adipiscing pretium luctus suspendisse ut. Massa viverra phasellus enim aliquam fames vivamus eleifend imperdiet nec. Purus odio etiam rutrum ultrices diam nunc gravida maecenas dui. Sollicitudin lacus lectus malesuada odio sed nec fames rhoncus varius sed tempus vel cursus quisque.
+                            </p>
+                            <ul> 
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                            </ul>
+                          </div>
+                          <div class="tab">
+                            <h2>Congue vestibulum potenti justo tortor id
+                            </h2><iframe width="560" height="315" src="https://www.youtube.com/embed/UwsrzCVZAb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>Nullam euismod dictumst leo conubia purus vivamus justo adipiscing rhoncus. Litora conubia pharetra vulputate laoreet phasellus rutrum aliquam nibh pretium. Faucibus phasellus vestibulum eleifend nibh eu vestibulum tincidunt consectetur morbi. Pharetra donec porttitor nam malesuada consectetur sodales accumsan mattis nostra. Aliquet cras pharetra nisl vivamus ornare aliquam est praesent sem colus habitant risus libero etiam.
+                            </p>
+                            <ul> 
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                            </ul>
+                          </div>
+                          <div class="tab">
+                            <h2>Pellentesque nibh ligula faucibus class accumsan
+                            </h2><iframe width="560" height="315" src="https://www.youtube.com/embed/UwsrzCVZAb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>Quisque at commodo cubilia donec at lobortis neque hendrerit orci. Velit fermentum tortor felis quisque orci sociosqu convallis nullam aliquet. A egestas massa tempor class urna curabitur tellus bibendum scelerisque. Placerat rutrum posuere gravida semper habitant quisque commodo venenatis integer. Elementum rhoncus ante egestas pretium proin colus laoreet est quisque gravida aliquam sociosqu donec posuere.
+                            </p>
+                            <ul> 
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                              <li>Lorem ipsum dolor ament <a href="#">ver más</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dashboard__module__item">
+                      <h3>Herramientas</h3>
+                      <div class="dashboard__module__tools"> 
+                        <div class="dashboard__module__tool"> 
+                          <div class="dashboard__icon"> <img src="img/icons/icon-pdf.png"></div>
+                          <div class="dashboard__module__tool__body">
+                            <div class="dashboard__text">Ad blandit magna adipiscing etiam enim erat feugiat etiam adipiscing class inceptos.
+                            </div><a href="#" class="btn btn--sm">Descargar<span class="material-symbols-rounded">download</span></a>
+                          </div>
+                        </div>
+                        <div class="dashboard__module__tool"> 
+                          <div class="dashboard__icon"> <img src="img/icons/icon-ppt.png"></div>
+                          <div class="dashboard__module__tool__body">
+                            <div class="dashboard__text">Curabitur malesuada sapien senectus mauris dictumst curabitur fusce eu dictum volutpat purus.
+                            </div><a href="#" class="btn btn--sm">Descargar<span class="material-symbols-rounded">download</span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dashboard__module__item">
+                      <h3>Adjuntar herramientas</h3>
+                      <div class="dashboard__module__attach">
+                        <form>
+                          <h5 class="dasboard__title">Adjunta tus tareas completas</h5>
+                          <div class="dashboard__module__attach__area">
+                            <label>
+                              <input type="file" name="#"><span class="material-symbols-rounded">add</span>
+                            </label>
+                          </div>
+                          <div class="dashboard__module__attach__info"> 
+                            <ul> 
+                              <li>Archivos permitidos: .pdf, .docx, .pptx, .xlxs, .zip, .jpeg y .png</li>
+                              <li>Tamaño máx. permitido 20MB</li>
+                              <li>Puedes subir solo un archivo a la vez, si deseas subir más de uno debes enviar cada archivo ordenadamente</li>
+                            </ul>
+                          </div>
+                          <div class="dashboard__module__attach__button"> 
+                            <button class="btn">Confirmar</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="dashboard__module__item">
+                      <h3>Solicitar feedback</h3>
+                      <div class="dashboard__module__form"> 
+                        <form class="form">
+                          <div class="cols"> 
+                            <div class="col-md-12">
+                              <div class="form__element"> 
+                                <div class="form__title">Venture Marker</div>
+                                <div class="form__input">
+                                  <input type="password" name="#">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="form__element"> 
+                                <div class="form__title">Mensaje</div>
+                                <div class="form__input">
+                                  <textarea name="#"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <button class="btn">Solicitar</button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Digevo Evolution</title>
+    <meta charset="UTF-8">
+    <link href="img/favicon.png" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/main.css?v=48179" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=48179" type="text/javascript"></script>
+    <!-- Meta tags facebook-->
+    <meta property="og:title" content="#">
+    <meta property="og:description" content="#">
+    <meta property="og:image" content="#">
+    <!-- Meta tags twitter cards-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="#">
+    <meta name="twitter:description" content="#">
+    <meta name="twitter:image" content="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+  </head>
+  <body>
+    <div id="sections">
+      <div class="dashboard">
+        <div class="dashboard__nav">
+          <div class="dashboard__nav__nav"> 
+            <nav> 
+              <ul> 
+                <div class="dashboard__nav__title">Menú Principal</div>
+                <div class="dashboard__menu">
+                  <div class="dashboard__menuaction"><span class="material-symbols-rounded">arrow_forward</span></div>
+                </div>
+                <li class="current"><span class="material-symbols-rounded">home</span><a href="dashboard.html">Inicio</a></li>
+                <li> <span class="material-symbols-rounded">school</span><a href="programs.html">Cursos</a></li>
+                <li> <span class="material-symbols-rounded">work</span><a href="marketplace.html">Bolsa de trabajos</a></li>
+                <li> <span class="material-symbols-rounded">forum</span><a href="forum.html">Foro</a></li>
+                <li> <span class="material-symbols-rounded">redeem</span><a href="marketplace.html">Beneficios</a></li>
+                <li> <span class="material-symbols-rounded">event_available</span><a href="events.html">Eventos</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="dashboard__footer">
+            <div class="dashboard__button__desktop"><a href="#" class="btn btn--light">Cerrar Sesión<span class="material-symbols-rounded">logout</span></a></div>
+            <div class="dashboard__button__mobile"><a href="#" class="btn btn--light"><span class="material-symbols-rounded">logout</span></a></div>
+          </div>
+        </div>
+        <div class="dashboard__header"> 
+          <div class="dashboard__wrap">
+            <div class="dashboard__searchinput">
+              <form action="search.html" method="get"><span class="fa fa-search"></span>
+                <input type="text" name="s" placeholder="Escribe tu búsqueda">
+              </form>
+            </div>
+            <div class="dashboard__flex">
+              <div class="dashboard__logo"><img src="img/icons/adity-logo.png"></div>
+              <div class="dashboard__right">
+                <div data-open-search class="dashboard__actionsearch"><span class="material-symbols-rounded">search</span></div>
+                <div class="dashboard__items">
+                  <div class="dashboard__item dashboard__item--darwin"><a href="#"><img src="img/icons/icon-darwin.png"></a></div>
+                  <div class="dashboard__item dashboard__item--notifications"><a href="#"><span class="material-symbols-rounded">notifications</span>
+                      <div class="alert-number">3</div></a>
+                    <div class="dashboard__notifications"> 
+                      <div class="dashboard__notifications__body">
+                        <!--.dashboard__clear span No hay notificaciones disponibles
+                        -->
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/1.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Ultricies netus habitasse suscipit</a>
+                            <p>Fusce justo faucibus condimentum aliquam integer arcu platea massa tempor hendrerit nec.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/2.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Nulla diam ut taciti</a>
+                            <p>Hendrerit tortor dictum ultricies mi varius viverra eros posuere nostra sodales congue.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/3.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Platea blandit ornare et</a>
+                            <p>Curae viverra quisque vehicula primis ac nisi purus sociosqu donec faucibus imperdiet.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/1.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Egestas ac suscipit sodales</a>
+                            <p>Massa felis pellentesque turpis vel in torquent primis duis elit non libero.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/2.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Felis litora enim pretium</a>
+                            <p>Ut ut aptent nostra nisl interdum erat luctus blandit aptent himenaeos porta.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/3.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Netus sodales aliquam integer</a>
+                            <p>Tempor consectetur proin pretium integer lacus in eget feugiat mollis tempor sem.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/1.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Tempor molestie tellus adipiscing</a>
+                            <p>Eleifend ornare etiam aliquam nam vestibulum vulputate per risus hendrerit feugiat fames.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/2.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Lectus ullamcorper nostra nullam</a>
+                            <p>Suspendisse nunc litora ut integer rutrum nostra taciti viverra aenean consequat malesuada.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dashboard__notification">
+                          <div class="dashboard__close"> <span class="material-symbols-rounded">close</span></div>
+                          <div class="dashboard__avatar"><img src="img/avatars/3.jpg"></div>
+                          <div class="dashboard__message">
+                            <div class="dashboard__date">31/08/2022</div><a href="#" class="dashboard__message__title">Elit hendrerit condimentum nisi</a>
+                            <p>Suspendisse enim gravida enim elementum curabitur pulvinar est morbi risus senectus sodales.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="dashboard__notifications__footer"><a href="notifications.html" class="btn btn--light">Ver todas las notificaciones<span class="material-symbols-rounded">notifications</span></a></div>
+                    </div>
+                  </div>
+                  <div class="dashboard__item dashboard__item--profile"><a><span class="material-symbols-rounded">person</span></a>
+                    <div class="dashboard__profile"> 
+                      <div class="dashboard__profile__body">
+                        <ul> 
+                          <li><a href="#">Emprendimiento 1</a>
+                            <ul> 
+                              <li><a href="#">Emprendimiento 2</a></li>
+                              <li><a href="#">Emprendimiento 3</a></li>
+                              <li><a href="#">Emprendimiento 4</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="profile.html">Mi perfil</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__body">
+          <div class="dashboard__body__header">
+            <div class="dashboard__prev"><a href="programs.html">Volver a Mis Programas<span class="material-symbols-rounded">keyboard_backspace</span></a></div>
+            <h4 class="dashboard__title">Módulos</h4>
+          </div>
+          <div class="dasboard__body__body">
+            <div class="dasboard__body__modules">
+              <div class="cols"> 
+                <div class="col-xs-12">
+                  <div class="card card--module">
+                    <div class="card__header">
+                      <div class="card__img"> <img src="img/uploads/modulo-1.png"></div>
+                      <div class="card__flex__column">
+                        <div class="card__body">
+                          <h4 class="card__title">Nombre Módulo 1</h4><span class="card__subtitle">2 Unidades </span>
+                          <div class="card__progress"> 
+                            <div class="card__progress__bar"><span class="card__porcent">30%</span></div>
+                          </div><a href="single-program.html" class="btn btn--sm">Ir al módulo<span class="material-symbols-rounded">grid_view</span></a>
+                        </div>
+                        <div class="card__footer"> 
+                          <h4 class="card__title">Unidades </h4>
+                          <div class="faq">
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Estrategia</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Nullam risus</a></li>
+                                  <li><a href="#">Est vehicula</a></li>
+                                  <li><a href="#">Maecenas dictumst est</a></li>
+                                  <li><a href="#">Per ultrices maecenas suscipit tincidunt</a></li>
+                                  <li><a href="#">Mi aliquam vestibulum</a></li>
+                                  <li><a href="#">Consequat vitae per viverra curabitur etiam bibendum hendrerit</a></li>
+                                  <li><a href="#">Commodo senectus</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Producto</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Tellus libero</a></li>
+                                  <li><a href="#">Lacus praesent</a></li>
+                                  <li><a href="#">Maecenas augue vulputate</a></li>
+                                  <li><a href="#">Inceptos eros class interdum porttitor</a></li>
+                                  <li><a href="#">Justo eu non</a></li>
+                                  <li><a href="#">Sed elit vitae consequat vulputate eros et tempus</a></li>
+                                  <li><a href="#">Praesent volutpat</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Go To Market</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Eleifend condimentum</a></li>
+                                  <li><a href="#">Quis ac</a></li>
+                                  <li><a href="#">Et consectetur ornare</a></li>
+                                  <li><a href="#">Litora vitae turpis massa litora</a></li>
+                                  <li><a href="#">Habitant faucibus augue</a></li>
+                                  <li><a href="#">Augue quam aenean maecenas odio fusce euismod lacinia</a></li>
+                                  <li><a href="#">Orci consectetur</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <div class="card card--module">
+                    <div class="card__header">
+                      <div class="card__img"> <img src="img/uploads/modulo-2.png"></div>
+                      <div class="card__flex__column">
+                        <div class="card__body">
+                          <h4 class="card__title">Nombre Módulo 2</h4><span class="card__subtitle">2 Unidades </span>
+                          <div class="card__progress"> 
+                            <div class="card__progress__bar"><span class="card__porcent">30%</span></div>
+                          </div><a href="single-program.html" class="btn btn--sm">Ir al módulo<span class="material-symbols-rounded">grid_view</span></a>
+                        </div>
+                        <div class="card__footer"> 
+                          <h4 class="card__title">Unidades </h4>
+                          <div class="faq">
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Estrategia</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Curabitur ac</a></li>
+                                  <li><a href="#">Ultricies aliquam</a></li>
+                                  <li><a href="#">Pellentesque id est</a></li>
+                                  <li><a href="#">Odio morbi dictum duis luctus</a></li>
+                                  <li><a href="#">Et odio tellus</a></li>
+                                  <li><a href="#">Nibh elit ut habitant placerat ac leo malesuada</a></li>
+                                  <li><a href="#">Class orci</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Producto</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Donec lacus</a></li>
+                                  <li><a href="#">Eros lectus</a></li>
+                                  <li><a href="#">Pulvinar aliquam condimentum</a></li>
+                                  <li><a href="#">Aliquet fames volutpat litora mauris</a></li>
+                                  <li><a href="#">Primis nunc dictumst</a></li>
+                                  <li><a href="#">Vehicula pharetra vel ad placerat convallis molestie pellentesque</a></li>
+                                  <li><a href="#">Laoreet torquent</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Go To Market</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Malesuada pharetra</a></li>
+                                  <li><a href="#">Fusce torquent</a></li>
+                                  <li><a href="#">Porttitor ut sollicitudin</a></li>
+                                  <li><a href="#">Odio turpis maecenas eleifend rhoncus</a></li>
+                                  <li><a href="#">Laoreet platea volutpat</a></li>
+                                  <li><a href="#">Ornare dui tortor est bibendum eu sodales ultricies</a></li>
+                                  <li><a href="#">Praesent nulla</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Estrategia</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Et platea</a></li>
+                                  <li><a href="#">Per lacus</a></li>
+                                  <li><a href="#">Quisque consectetur dapibus</a></li>
+                                  <li><a href="#">Volutpat mollis dictumst phasellus tortor</a></li>
+                                  <li><a href="#">Litora risus diam</a></li>
+                                  <li><a href="#">Vulputate sed vestibulum porttitor nisl ornare orci congue</a></li>
+                                  <li><a href="#">Hendrerit mi</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Producto</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Senectus consectetur</a></li>
+                                  <li><a href="#">Enim purus</a></li>
+                                  <li><a href="#">Interdum massa nam</a></li>
+                                  <li><a href="#">Nisl adipiscing platea adipiscing class</a></li>
+                                  <li><a href="#">Pretium quisque est</a></li>
+                                  <li><a href="#">Pellentesque fusce ad morbi ad torquent colus imperdiet</a></li>
+                                  <li><a href="#">Lectus tortor</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Go To Market</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Donec dui</a></li>
+                                  <li><a href="#">Laoreet felis</a></li>
+                                  <li><a href="#">Aptent libero hendrerit</a></li>
+                                  <li><a href="#">Mauris cubilia leo in sapien</a></li>
+                                  <li><a href="#">Convallis platea ut</a></li>
+                                  <li><a href="#">Egestas eu vulputate ornare etiam ut blandit ultrices</a></li>
+                                  <li><a href="#">Cursus arcu</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Estrategia</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Augue nec</a></li>
+                                  <li><a href="#">Torquent erat</a></li>
+                                  <li><a href="#">Curae enim cursus</a></li>
+                                  <li><a href="#">Duis volutpat potenti mollis urna</a></li>
+                                  <li><a href="#">Mattis nam aenean</a></li>
+                                  <li><a href="#">Lectus quisque conubia augue vehicula donec suscipit sagittis</a></li>
+                                  <li><a href="#">Consectetur id</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Producto</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Fusce ornare</a></li>
+                                  <li><a href="#">Nisl vel</a></li>
+                                  <li><a href="#">Posuere non justo</a></li>
+                                  <li><a href="#">Eget vivamus senectus aliquam imperdiet</a></li>
+                                  <li><a href="#">Rhoncus iaculis libero</a></li>
+                                  <li><a href="#">Scelerisque ut convallis rutrum eleifend morbi cras bibendum</a></li>
+                                  <li><a href="#">Vulputate sagittis</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Go To Market</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Fames scelerisque</a></li>
+                                  <li><a href="#">Tincidunt venenatis</a></li>
+                                  <li><a href="#">Libero netus mattis</a></li>
+                                  <li><a href="#">Ornare rhoncus ac vulputate consectetur</a></li>
+                                  <li><a href="#">Pulvinar ante non</a></li>
+                                  <li><a href="#">Suscipit scelerisque class etiam nullam vehicula semper netus</a></li>
+                                  <li><a href="#">A quam</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <div class="card card--module">
+                    <div class="card__header">
+                      <div class="card__img"> <img src="img/uploads/modulo-3.png"></div>
+                      <div class="card__flex__column">
+                        <div class="card__body">
+                          <h4 class="card__title">Nombre Módulo 3</h4><span class="card__subtitle">2 Unidades </span>
+                          <div class="card__progress"> 
+                            <div class="card__progress__bar"><span class="card__porcent">30%</span></div>
+                          </div><a href="single-program.html" class="btn btn--sm">Ir al módulo<span class="material-symbols-rounded">grid_view</span></a>
+                        </div>
+                        <div class="card__footer"> 
+                          <h4 class="card__title">Unidades </h4>
+                          <div class="faq">
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Estrategia</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Donec quisque</a></li>
+                                  <li><a href="#">Risus fames</a></li>
+                                  <li><a href="#">Scelerisque class morbi</a></li>
+                                  <li><a href="#">Enim quis nunc curabitur curabitur</a></li>
+                                  <li><a href="#">Suspendisse tempus cras</a></li>
+                                  <li><a href="#">Magna erat sodales dui taciti vivamus odio lobortis</a></li>
+                                  <li><a href="#">Arcu aliquam</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Producto</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Placerat semper</a></li>
+                                  <li><a href="#">Eleifend nisl</a></li>
+                                  <li><a href="#">Himenaeos justo etiam</a></li>
+                                  <li><a href="#">Viverra rutrum a pretium blandit</a></li>
+                                  <li><a href="#">Primis inceptos massa</a></li>
+                                  <li><a href="#">Duis odio lobortis dapibus urna vehicula nostra nunc</a></li>
+                                  <li><a href="#">Mollis donec</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Go To Market</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Venenatis at</a></li>
+                                  <li><a href="#">Vehicula condimentum</a></li>
+                                  <li><a href="#">Massa dapibus quisque</a></li>
+                                  <li><a href="#">Varius justo eget in purus</a></li>
+                                  <li><a href="#">Pulvinar massa adipiscing</a></li>
+                                  <li><a href="#">Nisi semper aptent lobortis consectetur sed risus mi</a></li>
+                                  <li><a href="#">Suscipit donec</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <div class="card card--module">
+                    <div class="card__header">
+                      <div class="card__img"> <img src="img/uploads/modulo-4.png"></div>
+                      <div class="card__flex__column">
+                        <div class="card__body">
+                          <h4 class="card__title">Nombre Módulo 4</h4><span class="card__subtitle">2 Unidades </span>
+                          <div class="card__progress"> 
+                            <div class="card__progress__bar"><span class="card__porcent">30%</span></div>
+                          </div><a href="single-program.html" class="btn btn--sm">Ir al módulo<span class="material-symbols-rounded">grid_view</span></a>
+                        </div>
+                        <div class="card__footer"> 
+                          <h4 class="card__title">Unidades </h4>
+                          <div class="faq">
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Estrategia</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Curabitur convallis</a></li>
+                                  <li><a href="#">Aliquam aliquet</a></li>
+                                  <li><a href="#">Rhoncus lacus morbi</a></li>
+                                  <li><a href="#">Hac suspendisse sagittis semper elit</a></li>
+                                  <li><a href="#">Bibendum eros pretium</a></li>
+                                  <li><a href="#">Aliquam neque suscipit non per duis hac porta</a></li>
+                                  <li><a href="#">Placerat fringilla</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Producto</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Colus adipiscing</a></li>
+                                  <li><a href="#">Duis neque</a></li>
+                                  <li><a href="#">Velit vulputate donec</a></li>
+                                  <li><a href="#">Tortor quisque eget tellus velit</a></li>
+                                  <li><a href="#">Nullam tincidunt primis</a></li>
+                                  <li><a href="#">Nibh posuere class porta pharetra ultricies odio gravida</a></li>
+                                  <li><a href="#">Magna euismod</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Go To Market</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">In netus</a></li>
+                                  <li><a href="#">Odio mauris</a></li>
+                                  <li><a href="#">Tempus quisque consectetur</a></li>
+                                  <li><a href="#">Placerat feugiat praesent ad gravida</a></li>
+                                  <li><a href="#">Tincidunt etiam integer</a></li>
+                                  <li><a href="#">Pulvinar inceptos orci convallis felis inceptos vulputate velit</a></li>
+                                  <li><a href="#">Venenatis dictumst</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <div class="card card--module">
+                    <div class="card__header">
+                      <div class="card__img"> <img src="img/uploads/modulo-5.png"></div>
+                      <div class="card__flex__column">
+                        <div class="card__body">
+                          <h4 class="card__title">Nombre Módulo 5</h4><span class="card__subtitle">2 Unidades </span>
+                          <div class="card__progress"> 
+                            <div class="card__progress__bar"><span class="card__porcent">30%</span></div>
+                          </div><a href="single-program.html" class="btn btn--sm">Ir al módulo<span class="material-symbols-rounded">grid_view</span></a>
+                        </div>
+                        <div class="card__footer"> 
+                          <h4 class="card__title">Unidades </h4>
+                          <div class="faq">
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Estrategia</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Sociosqu mauris</a></li>
+                                  <li><a href="#">Curabitur consectetur</a></li>
+                                  <li><a href="#">Sodales ac conubia</a></li>
+                                  <li><a href="#">Per ligula eros sagittis lacus</a></li>
+                                  <li><a href="#">Ultrices ligula risus</a></li>
+                                  <li><a href="#">Dictumst cras mi habitasse nulla aptent nunc lacinia</a></li>
+                                  <li><a href="#">Nullam quisque</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Producto</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Cubilia posuere</a></li>
+                                  <li><a href="#">Pellentesque libero</a></li>
+                                  <li><a href="#">Eleifend scelerisque purus</a></li>
+                                  <li><a href="#">Fringilla facilisis dictumst habitant in</a></li>
+                                  <li><a href="#">Semper sem praesent</a></li>
+                                  <li><a href="#">Mauris senectus malesuada pharetra taciti conubia quis massa</a></li>
+                                  <li><a href="#">Egestas turpis</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Go To Market</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Neque etiam</a></li>
+                                  <li><a href="#">Egestas egestas</a></li>
+                                  <li><a href="#">Nostra platea curabitur</a></li>
+                                  <li><a href="#">Tincidunt malesuada risus ut ut</a></li>
+                                  <li><a href="#">Ad scelerisque semper</a></li>
+                                  <li><a href="#">Cubilia facilisis eleifend dui auctor risus bibendum sociosqu</a></li>
+                                  <li><a href="#">Neque nunc</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <div class="card card--module">
+                    <div class="card__header">
+                      <div class="card__img"> <img src="img/uploads/modulo-6.png"></div>
+                      <div class="card__flex__column">
+                        <div class="card__body">
+                          <h4 class="card__title">Nombre Módulo 6</h4><span class="card__subtitle">2 Unidades </span>
+                          <div class="card__progress"> 
+                            <div class="card__progress__bar"><span class="card__porcent">30%</span></div>
+                          </div><a href="single-program.html" class="btn btn--sm">Ir al módulo<span class="material-symbols-rounded">grid_view</span></a>
+                        </div>
+                        <div class="card__footer"> 
+                          <h4 class="card__title">Unidades </h4>
+                          <div class="faq">
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Estrategia</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Metus mattis</a></li>
+                                  <li><a href="#">Eros maecenas</a></li>
+                                  <li><a href="#">Nam integer laoreet</a></li>
+                                  <li><a href="#">Phasellus accumsan imperdiet vestibulum bibendum</a></li>
+                                  <li><a href="#">Eu potenti urna</a></li>
+                                  <li><a href="#">Duis torquent molestie purus eros porta etiam nibh</a></li>
+                                  <li><a href="#">Ut nostra</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Producto</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Luctus eu</a></li>
+                                  <li><a href="#">Quisque conubia</a></li>
+                                  <li><a href="#">Donec pellentesque porta</a></li>
+                                  <li><a href="#">Felis turpis arcu maecenas eu</a></li>
+                                  <li><a href="#">Vel pulvinar eu</a></li>
+                                  <li><a href="#">Tempus in convallis colus litora platea quam justo</a></li>
+                                  <li><a href="#">Etiam etiam</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Go To Market</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Ad laoreet</a></li>
+                                  <li><a href="#">Odio turpis</a></li>
+                                  <li><a href="#">Dictumst ut elit</a></li>
+                                  <li><a href="#">Faucibus orci ut nulla donec</a></li>
+                                  <li><a href="#">Convallis sodales gravida</a></li>
+                                  <li><a href="#">Fames ligula imperdiet commodo vel enim aliquam etiam</a></li>
+                                  <li><a href="#">Pharetra ac</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <div class="card card--module">
+                    <div class="card__header">
+                      <div class="card__img"> <img src="img/uploads/modulo-7.png"></div>
+                      <div class="card__flex__column">
+                        <div class="card__body">
+                          <h4 class="card__title">Nombre Módulo 7</h4><span class="card__subtitle">2 Unidades </span>
+                          <div class="card__progress"> 
+                            <div class="card__progress__bar"><span class="card__porcent">30%</span></div>
+                          </div><a href="single-program.html" class="btn btn--sm">Ir al módulo<span class="material-symbols-rounded">grid_view</span></a>
+                        </div>
+                        <div class="card__footer"> 
+                          <h4 class="card__title">Unidades </h4>
+                          <div class="faq">
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Estrategia</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">In orci</a></li>
+                                  <li><a href="#">Congue neque</a></li>
+                                  <li><a href="#">Scelerisque habitasse consequat</a></li>
+                                  <li><a href="#">Dapibus dui pretium egestas eu</a></li>
+                                  <li><a href="#">Sed eget tincidunt</a></li>
+                                  <li><a href="#">Sollicitudin taciti aliquam auctor est cubilia placerat senectus</a></li>
+                                  <li><a href="#">Eget aliquam</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Producto</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Viverra id</a></li>
+                                  <li><a href="#">Nostra nam</a></li>
+                                  <li><a href="#">Neque iaculis hendrerit</a></li>
+                                  <li><a href="#">Vehicula ad aliquet vestibulum aenean</a></li>
+                                  <li><a href="#">Volutpat sollicitudin hac</a></li>
+                                  <li><a href="#">Suspendisse nullam ante duis mollis nam pharetra est</a></li>
+                                  <li><a href="#">Eget ac</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="faq__item">
+                              <h3 class="faq__question"><span class="fa fa-angle-down"></span>Go To Market</h3>
+                              <div class="faq__answer">
+                                <ul>
+                                  <li><a href="#">Neque elit</a></li>
+                                  <li><a href="#">Duis nisl</a></li>
+                                  <li><a href="#">Nunc lacus aenean</a></li>
+                                  <li><a href="#">Class phasellus nec lectus diam</a></li>
+                                  <li><a href="#">Posuere quisque lacus</a></li>
+                                  <li><a href="#">Turpis sem congue curabitur nibh inceptos dui litora</a></li>
+                                  <li><a href="#">Adipiscing blandit</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
